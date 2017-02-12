@@ -1,0 +1,70 @@
+<head>
+
+    <!-- AngularJS Material CSS using GitCDN to load directly from `bower-material/master` -->
+    <link rel="stylesheet" href="https://gitcdn.link/repo/angular/bower-material/master/angular-material.css">
+
+
+    <!-- AngularJS Material Dependencies -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+
+    <!-- AngularJS Material Javascript using GitCDN to load directly from `bower-material/master` -->
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="first" style=" padding: 25px;">
+
+
+    <div layout="row" style=" background-color: brown" layout-no-wrap="" layout-padding>
+        <md-button style="background-color: mediumvioletred; color: white">Hello</md-button>
+    </div>
+
+    <md-grid-list md-cols="5" style="background-color: #9e9e9e"  md-row-height="4:3">
+        <md-grid-tile style="background-color: mediumvioletred; color: white; font-weight: bold">
+            <md-grid-tile-header>
+                <h3>This is a header</h3>
+            </md-grid-tile-header>
+
+            <md-button >Hello</md-button>
+
+            <md-grid-tile-footer>
+                <h3>This is a footer</h3>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+        <md-grid-tile style="background-color: darkcyan; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+        <md-grid-tile style="background-color: cornflowerblue; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+        <md-grid-tile style="background-color: blueviolet; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+        <md-grid-tile style="background-color: tomato; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+    </md-grid-list>
+
+
+    <md-grid-list md-cols="5" style="background-color: #9e9e9e"  md-row-height="4:3">
+        <md-grid-tile md-colspan="2" md-rowspan="2" style="background-color: green; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+        <md-grid-tile style="background-color: darkcyan; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+        <md-grid-tile style="background-color: cornflowerblue; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+        <md-grid-tile style="background-color: blueviolet; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+        <md-grid-tile style="background-color: tomato; color: white; font-weight: bold">
+            Hello
+        </md-grid-tile>
+    </md-grid-list>
+
+</body>

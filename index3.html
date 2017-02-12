@@ -1,0 +1,78 @@
+<head>
+
+    <!-- AngularJS Material CSS using GitCDN to load directly from `bower-material/master` -->
+    <link rel="stylesheet" href="https://gitcdn.link/repo/angular/bower-material/master/angular-material.css">
+
+
+    <!-- AngularJS Material Dependencies -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+
+    <!-- AngularJS Material Javascript using GitCDN to load directly from `bower-material/master` -->
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="first" style=" padding: 25px;">
+
+
+
+
+
+<div layout="row" ng-cloak style="height: 100%" layout-no-wrap="" layout-padding="">
+    <style>
+        .edgePadding {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    </style>
+
+    <div layout="column" layout-align="center center"
+         style="background-color: #f2f2f2" class="md-padding">
+        <span id="left">left control</span>
+    </div>
+
+    <div layout="column" layout-align="start start"
+         style="background-color: burlywood" class="md-padding">
+        <span id="left">left control world right control.</span>
+    </div>
+
+    <div layout="column" layout-align="center start" layout-padding flex>
+        <p class="inset">
+            A dialog can specify its origin and target with <code>openFrom</code> and
+            <code>closeTo</code> properties.
+
+            The options showFrom and closeTo can be specified as a string [where internally
+            querySelector( ) is used to perform the DOM element lookup],
+            element or an Rect object [with top, left, width, height fields].
+        </p>
+
+
+
+        <div class="dialog-demo-content" layout="column" layout-align="center center" style="width:100%">
+            <md-button class="md-primary md-raised edgePadding"  >
+                Open From Left - Close To Right
+            </md-button>
+            <md-button class="md-primary md-raised edgePadding"  >
+                Open From Top Left - Close Slide Down
+            </md-button>
+        </div>
+
+
+    </div>
+
+
+    <div layout="column" layout-align="center center"
+         style="background-color: #f2f2f2" class="md-padding">
+        <span id="right">right</span>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
