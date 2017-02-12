@@ -3,8 +3,16 @@
  */
 var app = angular.module("app", ["ngMaterial"]);
 
+app.config(['$mdIconProvider', function($mdIconProvider) {
+    $mdIconProvider
+        .defaultIconSet("assets/svg/mdi.svg", 24);
+}]);
+
 app.controller("first", ["$scope", function($scope){
 
-    $scope.name = "Hello Pooja.";
+    $scope.name = "Hello";
+
 
 }]);
+
+
