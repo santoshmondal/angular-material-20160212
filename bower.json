@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular-material": "^1.1.3",
-    "mdi": "^1.8.36"
+    "mdi": "^1.8.36",
+    "angular-material-icons": "^0.7.1"
   }
 }

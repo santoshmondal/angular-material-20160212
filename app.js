@@ -1,7 +1,7 @@
 /**
  * Created by santosh on 2/11/17.
  */
-var app = angular.module("app", ["ngMaterial"]);
+var app = angular.module("app", ["ngMaterial", "ngMdIcons"]);
 
 app.config(['$mdIconProvider', function($mdIconProvider) {
     $mdIconProvider
