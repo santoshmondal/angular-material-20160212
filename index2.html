@@ -1,0 +1,90 @@
+<head>
+
+    <!-- AngularJS Material CSS using GitCDN to load directly from `bower-material/master` -->
+    <link rel="stylesheet" href="https://gitcdn.link/repo/angular/bower-material/master/angular-material.css">
+
+
+    <!-- AngularJS Material Dependencies -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+
+    <!-- AngularJS Material Javascript using GitCDN to load directly from `bower-material/master` -->
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="first">
+
+
+
+
+
+<div layout="row" layout-no-wrap="">
+
+    <div flex="10" style="background-color: cadetblue">
+        <md-button style="color: white; font-weight: bold">Election</md-button>
+    </div>
+
+
+    <div flex="80" style="background-color: blueviolet">
+        <div layout="row" layout-align="center">
+            <md-button style="color: white; background-color: chocolate; font-weight: bold">JAI</md-button>
+            <md-button style="color: white; background-color: khaki; font-weight: bold">SHREE</md-button>
+            <md-button style="color: white; background-color: crimson; font-weight: bold">RAM</md-button>
+        </div>
+    </div>
+
+
+    <div flex="10" style="background-color: cadetblue">
+        <md-button style="color: white; font-weight: bold">Parivartan</md-button>
+    </div>
+</div>
+
+
+<div layout="row" layout-no-wrap="" layout-padding="">
+    <md-whiteframe  class="md-whiteframe-10dp" flex="25" layout   layout-align="center start">
+        <md-button style="background-color: burlywood">WhiteFrame</md-button>
+    </md-whiteframe>
+
+
+    <md-whiteframe  class="md-whiteframe-5dp" flex="50"   layout-align="center center">
+        <div layout="column">
+
+            <div style="background-color: darkseagreen">
+                <md-button>Kannon</md-button>
+            </div>
+
+            <div style="background-color: antiquewhite">
+                <md-button>Kannon</md-button>
+            </div>
+
+            <div style="background-color: darkkhaki">
+                <md-button>Kannon</md-button>
+            </div>
+
+            <div style="background-color: lightblue">
+                <md-button>Kannon</md-button>
+            </div>
+
+            <div style="background-color: antiquewhite">
+                <md-button>Kannon</md-button>
+            </div>
+
+            <div style="background-color: darkkhaki">
+                <md-button>Kannon</md-button>
+            </div>
+        </div>
+    </md-whiteframe>
+
+
+    <md-whiteframe class="md-whiteframe-5dp" flex="25"   layout-align="center center">
+        <span>.md-whiteframe-1dp</span>
+    </md-whiteframe>
+
+</div>
+
+
+
+</body>
