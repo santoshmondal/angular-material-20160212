@@ -1,0 +1,21 @@
+{
+  "name": "sample1",
+  "homepage": "https://github.com/santoshmondal/angular-material-20160212",
+  "authors": [
+    "santosh <santosh.ece06@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.1.3",
+    "mdi": "^1.8.36"
+  }
+}
